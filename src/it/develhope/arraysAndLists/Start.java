@@ -9,8 +9,8 @@ public class Start {
         System.out.println("--------------Creating an array of cars-----------------------");
 
         String[] carBrands = new String[]{"Fiat", "BMW", "Mercedes", "Volkswagen", "Toyota"};
-        System.out.println(carBrands.length);
-        System.out.println(carBrands[2]);
+        System.out.println("The number of items of carBrands array is " + carBrands.length);
+        System.out.println("The third item of the carBrands array is " + carBrands[2]);
 
         System.out.println("---------------Creating an array of prime numbers--------------");
 
@@ -21,7 +21,7 @@ public class Start {
         primeNumbers[3] = 7;
         primeNumbers[4] = 11;
         primeNumbers[5] = 13;
-        System.out.println(Arrays.toString(primeNumbers));
+        System.out.println("These are the contents of the primeNumbers array: " + Arrays.toString(primeNumbers));
 
         System.out.println("---------------------------------------------------------------");
 
